@@ -8,7 +8,7 @@ How to Use
 2. Be sure to `(sudo) pip install grako`
 3. `cd /path/to/repo`
 4. `python imp.py`
-5. OR `python calc.py -h`
+5. **OR** `python calc.py -h`
 6. Have fun!
 
 How it Works
