@@ -13,10 +13,13 @@ How to Use
 
 Example
 -------------
-Enter `3*3;4*2342;` and hit enter. It should spit out 
+Enter `3*3;4*2342;` and hit enter. It should spit out
+
     3 * 3 = 9
     4 * 2342 = 9368
+    
 Enter `3*3;4*2342` and hit enter. It should spit out
+
     3 * 3 = 9
 
 
