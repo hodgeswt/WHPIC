@@ -11,6 +11,15 @@ How to Use
 5. **OR** `python calc.py -h`
 6. Have fun!
 
+Example
+-------------
+Enter `3*3;4*2342;` and hit enter. It should spit out 
+    3 * 3 = 9
+    4 * 2342 = 9368
+Enter `3*3;4*2342` and hit enter. It should spit out
+    3 * 3 = 9
+
+
 How it Works
 --------------
 
