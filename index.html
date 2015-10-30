@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="WHPIC : A simple interpreted calculator written in Python">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>WHPIC</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/hodgeswt/WHPIC">View on GitHub</a>
+
+          <h1 id="project_title">WHPIC</h1>
+          <h2 id="project_tagline">A simple interpreted calculator written in Python</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/hodgeswt/WHPIC/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/hodgeswt/WHPIC/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="whpic" class="anchor" href="#whpic" aria-hidden="true"><span class="octicon octicon-link"></span></a>WHPIC</h1>
+
+<h2>
+<a id="what-is-it" class="anchor" href="#what-is-it" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is it?</h2>
+
+<p>The WHPIC (Will Hodges Python Interpreted Calculator) is a proof of concept interpreter (sort of) written in Python.
+It is written using the <a href="https://pypi.python.org/pypi/grako/3.6.5">Grako</a> library for Python, which generates the parser.</p>
+
+<h2>
+<a id="how-does-it-work" class="anchor" href="#how-does-it-work" aria-hidden="true"><span class="octicon octicon-link"></span></a>How does it work?</h2>
+
+<p>The WHPIC uses an Expanded Backus-Naur Form grammar to define the rules of the calculator. Currently, the WHPIC is just a standard addition/subtraction/multiplication/division calculator that supports two number statements, ending with a semicolon.</p>
+
+<p>The grammar is converted into a parser with Grako (see above). It generates <code>calc.py</code>, which has all the parser mumbo-jumbo.</p>
+
+<p>The analysis of the content that is parsed occurs in <code>imp.py</code>. <code>imp.py</code> imports the parser and uses its functions to get a JSON-like result that is then parsed into numbers and operators, then calculated and returned.</p>
+
+<p><code>imp.py</code> is well-commented, so it should be basically self-explanatory.</p>
+
+<h2>
+<a id="can-i-use-it" class="anchor" href="#can-i-use-it" aria-hidden="true"><span class="octicon octicon-link"></span></a>Can I use it?</h2>
+
+<p>Sure! Just clone the repo, and read the Readme!</p>
+
+<h2>
+<a id="can-i-contribute" class="anchor" href="#can-i-contribute" aria-hidden="true"><span class="octicon octicon-link"></span></a>Can I contribute?</h2>
+
+<p>Yes, just clone the repo and improve it however you see necessary. Then, you can submit a pull request and have it merged with the main repo!</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">WHPIC maintained by <a href="https://github.com/hodgeswt">hodgeswt</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
